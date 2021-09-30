@@ -1,20 +1,31 @@
-  {
-    "version": "v3.4",
-    "configVers":"v1.6",
-    "region":"",
-    "regions":["na", "eu", "latam", "br", "ap", "kr", "pbe"],
+{
+    "version": "v3.5",
+    "configVers": "v1.6",
+    "region": "ap",
+    "regions": [
+        "na",
+        "eu",
+        "latam",
+        "br",
+        "ap",
+        "kr",
+        "pbe"
+    ],
     "clientID": 805627582728503318,
-    "language":"",
-    "languages":["en-US","ja-JP","ko-KR"],
+    "language": "en-US",
+    "languages": [
+        "en-US",
+        "ja-JP",
+        "ko-KR"
+    ],
     "presenceRefreshRate": 3,
-	"matchSheet":false,
-    "presence":{
+    "matchSheet": false,
+    "presence": {
         "show_rank": true,
-		"use_roman_numerals":true,
-        "show_party_count":true
+        "use_roman_numerals": true,
+        "show_party_count": true
     },
-    "startup":{
-        "launch_timeout":60
+    "startup": {
+        "launch_timeout": 60
     }
-
 }
